@@ -28,4 +28,8 @@
     <string name="chat_hint">Masukan anggaran makanan</string>
     <string name="btn_send_desc">Kirim pesan</string>
 
+    <string name="forum_title">Community</string>
+    <string name="forum_hint">Bagikan pengalaman bunda...</string>
+    <string name="forum_post_btn">Posting</string>
+
 </resources>

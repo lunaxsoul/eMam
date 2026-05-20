@@ -285,7 +285,8 @@ class ChatActivity : AppCompatActivity() {
             finish()
         }
         findViewById<LinearLayout>(R.id.navForum).setOnClickListener {
-            Toast.makeText(this, "Forum coming soon!", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, ForumActivity::class.java))
+            finish()
         }
         findViewById<LinearLayout>(R.id.navUser).setOnClickListener {
             Toast.makeText(this, "Profile coming soon!", Toast.LENGTH_SHORT).show()
