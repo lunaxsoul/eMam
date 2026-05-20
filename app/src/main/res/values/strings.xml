@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food Scanner</string>
+
+    <string name="desc_thumbnail">History Thumbnail</string>
+    <string name="label_history">History</string>
+    <string name="label_arrow">›</string>
+    <string name="desc_image">Captured Image</string>
+    <string name="btn_capture_desc">Capture Image</string>
+
+    <string name="icon_home">🏠</string>
+    <string name="nav_home">Home</string>
+
+    <string name="icon_chat">💬</string>
+    <string name="nav_chat">AI</string>
+
+    <string name="icon_scan">📷</string>
+    <string name="nav_scan">Scan</string>
+
+    <string name="icon_forum">💬</string>
+    <string name="nav_forum">Forum</string>
+
+    <string name="icon_user">👤</string>
+    <string name="nav_user">Profile</string>
+
+    <string name="chat_title">Chat dengan MAX.AI</string>
+    <string name="chat_hint">Masukan anggaran makanan</string>
+    <string name="btn_send_desc">Kirim pesan</string>
+
+</resources>
