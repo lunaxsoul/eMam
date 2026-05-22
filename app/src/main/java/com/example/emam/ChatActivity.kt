@@ -105,7 +105,7 @@ class ChatActivity : AppCompatActivity() {
     private lateinit var adapter: ChatAdapter
 
     private val client = OkHttpClient()
-    private val apiKey = "YOUR API KEY"
+    private val apiKey = "AIzaSyB4mHDvKuu6gZby3eV9DWAbAWxH_e5AW8I"
 
     private val history = mutableListOf<Pair<String, String>>()
 
@@ -147,8 +147,15 @@ class ChatActivity : AppCompatActivity() {
 
         btnSend.background = GradientDrawable().apply {
             shape = GradientDrawable.OVAL
-            setColor(Color.parseColor("#C62828"))
+            setColor(Color.parseColor("#AF3E4D"))
         }
+        btnSend.backgroundTintList = null
+        btnSend.text = "➤"
+        btnSend.textSize = 22f
+        btnSend.setTextColor(Color.WHITE)
+        btnSend.setPadding(0, 0, 0, 0)
+        btnSend.minWidth = 0
+        btnSend.minHeight = 0
     }
 
     private fun setupRecyclerView() {
@@ -277,7 +284,7 @@ class ChatActivity : AppCompatActivity() {
     @Suppress("SpellCheckingInspection")
     private fun setupNavigation() {
         findViewById<LinearLayout>(R.id.navHome).setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
             finish()
         }
         findViewById<LinearLayout>(R.id.navScan).setOnClickListener {

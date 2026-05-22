@@ -31,5 +31,6 @@
     <string name="forum_title">Community</string>
     <string name="forum_hint">Bagikan pengalaman bunda...</string>
     <string name="forum_post_btn">Posting</string>
+    <string name="btn_send_arrow">›</string>
 
 </resources>
