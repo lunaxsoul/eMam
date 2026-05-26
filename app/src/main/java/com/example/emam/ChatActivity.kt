@@ -105,7 +105,7 @@ class ChatActivity : AppCompatActivity() {
     private lateinit var adapter: ChatAdapter
 
     private val client = OkHttpClient()
-    private val apiKey = "AIzaSyB4mHDvKuu6gZby3eV9DWAbAWxH_e5AW8I"
+    private val apiKey = "YOUR API KEY"
 
     private val history = mutableListOf<Pair<String, String>>()
 
